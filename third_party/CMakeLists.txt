@@ -1,0 +1,3 @@
+add_subdirectory(rocksdb EXCLUDE_FROM_ALL)
+add_library(httplib INTERFACE)
+target_include_directories(httplib INTERFACE cpp-httplib)
